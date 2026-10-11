@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SpendWise</string>
+    <string name="tagline_built_by">Built by Vishwajeet Chandole</string>
+    <string name="app_version_label">SpendWise v2.0</string>
+    <string name="reminder_notification_title">SpendWise Daily Reminder</string>
+    <string name="reminder_notification_body">Did you add today\'s expenses?</string>
+</resources>

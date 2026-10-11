@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 1. Dark Navy Base Shadow Bar under Calendar -->
+    <path
+        android:fillColor="#153284"
+        android:pathData="M32,73 L76,73 A4,4 0 0,1 80,77 L80,78 A4,4 0 0,1 76,82 L32,82 A4,4 0 0,1 28,78 L28,77 A4,4 0 0,1 32,73 Z" />
+
+    <!-- 2. 3D White-to-Ice-Blue Rounded Trapezoid Calendar Body -->
+    <path
+        android:pathData="M36.5,33 L71.5,33 Q75.5,33 76.3,36.9 L83.5,72.6 Q84.3,76.8 80.0,76.8 L28.0,76.8 Q23.7,76.8 24.5,72.6 L31.7,36.9 Q32.5,33 36.5,33 Z"
+        android:strokeWidth="0.4"
+        android:strokeColor="#E6FFFFFF">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="28"
+                android:startY="33"
+                android:endX="82"
+                android:endY="77"
+                android:type="linear">
+                <item
+                    android:offset="0.0"
+                    android:color="#FFFFFF" />
+                <item
+                    android:offset="0.55"
+                    android:color="#ECF4FF" />
+                <item
+                    android:offset="1.0"
+                    android:color="#C9DFFF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- 3. Soft Shadows for Top Binder Rings -->
+    <path
+        android:fillColor="#447BA3E0"
+        android:pathData="M44.5,27 A4.2,4.2 0 0,1 48.7,31.2 L48.7,36.6 A4.2,4.2 0 0,1 40.3,36.6 L40.3,31.2 A4.2,4.2 0 0,1 44.5,27 Z" />
+    <path
+        android:fillColor="#447BA3E0"
+        android:pathData="M65.1,27 A4.2,4.2 0 0,1 69.3,31.2 L69.3,36.6 A4.2,4.2 0 0,1 60.9,36.6 L60.9,31.2 A4.2,4.2 0 0,1 65.1,27 Z" />
+
+    <!-- 4. Left & Right Dark Navy Binder Rings -->
+    <path android:pathData="M43.7,26 A4.2,4.2 0 0,1 47.9,30.2 L47.9,35.6 A4.2,4.2 0 0,1 39.5,35.6 L39.5,30.2 A4.2,4.2 0 0,1 43.7,26 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="39.5"
+                android:startY="26"
+                android:endX="47.9"
+                android:endY="36"
+                android:type="linear">
+                <item
+                    android:offset="0.0"
+                    android:color="#1B3B91" />
+                <item
+                    android:offset="1.0"
+                    android:color="#0A1A4E" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <path android:pathData="M64.3,26 A4.2,4.2 0 0,1 68.5,30.2 L68.5,35.6 A4.2,4.2 0 0,1 60.1,35.6 L60.1,30.2 A4.2,4.2 0 0,1 64.3,26 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="60.1"
+                android:startY="26"
+                android:endX="68.5"
+                android:endY="36"
+                android:type="linear">
+                <item
+                    android:offset="0.0"
+                    android:color="#1B3B91" />
+                <item
+                    android:offset="1.0"
+                    android:color="#0A1A4E" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- 5. Center Blue Circle Rim Highlight -->
+    <path
+        android:fillColor="#B8D4FF"
+        android:pathData="M54,40.7 A16.5,16.5 0 1,1 53.99,40.7 Z" />
+
+    <!-- 6. Center Royal Blue Circle -->
+    <path android:pathData="M54,41.0 A16.2,16.2 0 1,1 53.99,41.0 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="41"
+                android:endX="54"
+                android:endY="73.4"
+                android:type="linear">
+                <item
+                    android:offset="0.0"
+                    android:color="#2166EC" />
+                <item
+                    android:offset="1.0"
+                    android:color="#1452DA" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- 7. Crisp White Indian Rupee Symbol (₹) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48.2,47.0 L59.8,47.0 A1.4,1.4 0 0,1 61.2,48.4 L61.2,48.6 A1.4,1.4 0 0,1 59.8,50.0 L48.2,50.0 A1.4,1.4 0 0,1 46.8,48.6 L46.8,48.4 A1.4,1.4 0 0,1 48.2,47.0 Z" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48.2,51.8 L59.8,51.8 A1.4,1.4 0 0,1 61.2,53.2 L61.2,53.4 A1.4,1.4 0 0,1 59.8,54.8 L48.2,54.8 A1.4,1.4 0 0,1 46.8,53.4 L46.8,53.2 A1.4,1.4 0 0,1 48.2,51.8 Z" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52.5,47.5 Q59.0,47.8 59.0,53.3 Q59.0,58.8 52.0,59.5 L58.0,67.0 Q58.5,67.8 57.5,67.8 L54.4,67.8 Q53.6,67.8 53.1,67.1 L46.8,59.0 L46.8,56.6 L51.4,56.6 Q55.4,56.4 55.4,53.3 Q55.4,50.2 51.4,50.0 L52.5,47.5 Z" />
+</vector>

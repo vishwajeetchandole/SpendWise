@@ -1,0 +1,63 @@
+# Built application files
+*.apk
+*.aab
+*.aar
+*.ap_
+*.dex
+
+# Files for the Android Tooling
+local.properties
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/reports/
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+build/
+app/build/
+
+# Gradle files
+.gradle/
+
+# Kotlin
+.kotlin/
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Secrets & Local Environment
+.env
+*.keystore
+*.jks
+*.p8
+*.p12
+*.key
+*.pem
+
+# Captures & Profiling
+/captures
+.externalNativeBuild
+.cxx
+
+# Archives & Temporary Metadata
+*.zip
+metadata.json
+
