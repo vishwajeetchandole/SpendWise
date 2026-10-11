@@ -7,6 +7,7 @@
   ### *Smart, Private & Offline-First Personal Finance Manager for Android*
 
   [![Android CI](https://github.com/vishwajeetchandole/SpendWise/actions/workflows/android-ci.yml/badge.svg)](https://github.com/vishwajeetchandole/SpendWise/actions)
+  [![Download APK](https://img.shields.io/badge/Download-SpendWise%20v1.0%20APK-2ea44f?style=for-the-badge&logo=android&logoColor=white)](https://raw.githubusercontent.com/vishwajeetchandole/SpendWise/main/apk/SpendWise.apk)
   [![Platform](https://img.shields.io/badge/Platform-Android%207.0%2B%20(API%2024%2B)-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://developer.android.com)
   [![Kotlin](https://img.shields.io/badge/Kotlin-2.0.21-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](https://kotlinlang.org)
   [![Jetpack Compose](https://img.shields.io/badge/Compose-1.7.5-4285F4?style=for-the-badge&logo=android&logoColor=white)](https://developer.android.com/jetpack/compose)
@@ -23,6 +24,7 @@
 ---
 
 ## 📖 Table of Contents
+- [📲 Direct APK Download](#-direct-apk-download)
 - [✨ Key Features](#-key-features)
 - [🏗️ System Architecture](#️-system-architecture)
 - [🔄 User Flow & App Lifecycle](#-user-flow--app-lifecycle)
@@ -32,6 +34,24 @@
 - [🔒 Privacy & Security](#-privacy--security)
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
+
+---
+
+## 📲 Direct APK Download
+
+Ready to use SpendWise directly on your Android device? Download the latest compiled APK:
+
+<div align="center">
+
+[![Download APK](https://img.shields.io/badge/⬇️%20Download-SpendWise.apk%20(v1.0)-2ea44f?style=for-the-badge&logo=android&logoColor=white)](https://raw.githubusercontent.com/vishwajeetchandole/SpendWise/main/apk/SpendWise.apk)
+
+</div>
+
+### Installation Guide:
+1. Tap the **Download** button above or download [`SpendWise.apk`](apk/SpendWise.apk) directly from the `apk/` directory.
+2. Open the `.apk` file on your Android device (API 24+ / Android 7.0+).
+3. If prompted, allow **"Install from unknown sources"** for your browser or file manager.
+4. Launch **SpendWise** and set up your local PIN to start tracking!
 
 ---
 

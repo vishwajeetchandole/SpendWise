@@ -1,5 +1,6 @@
 # Built application files
 *.apk
+!apk/*.apk
 *.aab
 *.aar
 *.ap_
